@@ -118,9 +118,15 @@ const MentorProfileDropdown = () => {
         style={{ border: `1px solid ${COLORS.bg}` }}
         onClick={() => setOpen(!open)}
       >
-        <FaUserCircle size={26} style={{ color: COLORS.dark }} />
+        <div className=''>
+        <img
+              src="https://images.unsplash.com/photo-1618018352910-72bdafdc82a6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Mentor"
+              className="w-8 h-8 rounded-full border-[2px] border-[#32B768]"
+            />
+        </div>
         <div className="text-sm font-medium" style={{ color: COLORS.dark }}>
-          You (Mentor)
+          Helen Robert
         </div>
       </div>
 
@@ -130,9 +136,9 @@ const MentorProfileDropdown = () => {
           {/* Profile Details */}
           <div className="flex items-center gap-3 mb-4">
             <img
-              src="/mentor-avatar.png"
+              src="https://images.unsplash.com/photo-1618018352910-72bdafdc82a6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Mentor"
-              className="w-12 h-12 rounded-full border"
+              className="w-12 h-12 rounded-full border-[2px] border-[#32B768]"
             />
             <div>
               <p className="font-semibold text-gray-800">Helen Robert</p>
